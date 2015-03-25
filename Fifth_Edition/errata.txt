@@ -19,6 +19,11 @@ These are errata that I found in the Second Printing from October 2012.
 * Page 334, Exercise 9.10: the line with it1 and it2 is probably wrong, since
   both g++ and clang give an error for this line.
 
+* Page 346, code example at the bottom, in the comments:
+
+  "of the of the" -> "of the value of the"
+
 * Page 387, line 6 starting from the bottom:
 
   "It would be move useful ..." -> "It would be more useful ..."
+
