@@ -3,19 +3,24 @@
 #include <string>
 #include <vector>
 
+using std::cin;
+using std::istringstream;
+using std::string;
+using std::vector;
+
 struct PersonInfo {
-  std::string name;
-  std::vector<std::string> phones;
+  string name;
+  vector<string> phones;
 };
 
 int main()
 {
-  std::string line;
-  std::string word;
-  std::vector<PersonInfo> people;
-  std::istringstream record;
+  string line;
+  string word;
+  vector<PersonInfo> people;
+  istringstream record;
 
-  while (std::getline(std::cin, line))
+  while (std::getline(cin, line))
   {
     PersonInfo info;
     record.clear();
