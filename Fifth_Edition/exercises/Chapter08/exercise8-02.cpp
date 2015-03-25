@@ -3,18 +3,7 @@
  */
 
 #include <iostream>
-#include <string>
-
-std::istream& read(std::istream& is)
-{
-    std::string buf;
-    while (is >> buf)
-    {
-        std::cout << buf << std::endl;
-    }
-    is.clear();
-    return is;
-}
+#include "exercise8-01.h"
 
 int main()
 {

@@ -2,6 +2,9 @@
  * Note: CTRL+D is EOF in Linux.
  */
 
+#ifndef EXERCISE_8_01_H
+#define EXERCISE_8_01_H
+
 #include <iostream>
 #include <string>
 
@@ -15,3 +18,5 @@ std::istream& read(std::istream& is)
     is.clear();
     return is;
 }
+
+#endif
