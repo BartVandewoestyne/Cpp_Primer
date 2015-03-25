@@ -1,0 +1,13 @@
+See bottom of page 331:
+
+REQUIREMENTS ON ITERATORS FORMING AN ITERATOR RANGE
+---------------------------------------------------
+Two iterators, begin and end, form an iterator range, if
+
+  * They refer to elements of, or one past the end of, the same container, and
+
+  * It is possible to reach end by repeatedly incrementing begin.  In other
+    words, end must not precede begin.
+
+Note that the compiler cannot enforce these requirements.  It is up to us to
+ensure that our programs follow these conventions.
