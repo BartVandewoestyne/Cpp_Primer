@@ -1,0 +1,9 @@
+begin():
+
+  This is an overloaded function: there are actually two members named begin.
+  one is a const member that returns the container's const_iterator type.
+  The other is nonconst and returns the container's iterator type.
+
+cbegin():
+
+  Returns the const version of the related iterator.
