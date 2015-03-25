@@ -16,6 +16,9 @@ These are errata that I found in the Second Printing from October 2012.
 
 * Page 263, line 8: "As we'll, see" must be replaced by "As we'll see,"
 
+* Page 334, Exercise 9.10: the line with it1 and it2 is probably wrong, since
+  both g++ and clang give an error for this line.
+
 * Page 387, line 6 starting from the bottom:
 
   "It would be move useful ..." -> "It would be more useful ..."
