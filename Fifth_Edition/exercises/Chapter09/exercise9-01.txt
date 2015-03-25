@@ -1,0 +1,6 @@
+(a) A list, because they have fast insert/delete at any point in the list.
+
+(b) A deque, because they have fast insert/delete at front or back.
+
+(c) A vector, because it is easy to append to a vector and then call the library
+    sort function.
